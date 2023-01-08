@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coding-portfolio/static/css/main.756af292.css",
+    "main.js": "/coding-portfolio/static/js/main.9a31a803.js",
+    "static/js/787.28cb0dcd.chunk.js": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/big-bad-brain-blender-buster-screenshot.png": "/coding-portfolio/static/media/big-bad-brain-blender-buster-screenshot.929661ba0d0adec18080.png",
+    "static/media/newsAggregator.png": "/coding-portfolio/static/media/newsAggregator.e3254268e00ec50533a3.png",
+    "static/media/socialMediaApiScreenshot.png": "/coding-portfolio/static/media/socialMediaApiScreenshot.247076677ccca63705ae.png",
+    "static/media/textEditor.png": "/coding-portfolio/static/media/textEditor.8382d449317542b3c799.png",
+    "static/media/teamProfileGenerator.png": "/coding-portfolio/static/media/teamProfileGenerator.a4dc51f68ee2e5c94dbc.png",
+    "static/media/noteTaker.png": "/coding-portfolio/static/media/noteTaker.eb2cc9bc45b96f506266.png",
+    "static/media/logo.svg": "/coding-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/coding-portfolio/index.html",
+    "main.756af292.css.map": "/coding-portfolio/static/css/main.756af292.css.map",
+    "main.9a31a803.js.map": "/coding-portfolio/static/js/main.9a31a803.js.map",
+    "787.28cb0dcd.chunk.js.map": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.9a31a803.js"
+  ]
+}
