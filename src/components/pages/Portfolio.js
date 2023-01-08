@@ -27,7 +27,7 @@ export default function Portfolio() {
             <a class="btn btn-primary" href="https://github.com/samlee088/Big-Bad-Brain-Blender-Buster" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
-
+          <hr/>
         <div class = "row">
           <div class="col-md-7">
             <a href = "https://nelson92.github.io/project-one/" target="_blank" rel="noreferrer">

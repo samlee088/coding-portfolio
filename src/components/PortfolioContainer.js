@@ -5,6 +5,8 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -25,12 +27,16 @@ export default function PortfolioContainer() {
         return <Contact />;
     };
 
+    
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
+        <div class="d-flex flex-column justify-content-between" style={{height:"100vh"}}>
         <div>
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
           {renderPage()}
+        </div>
+          < Footer />
         </div>
       );
 }
