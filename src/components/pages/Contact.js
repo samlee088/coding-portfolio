@@ -2,11 +2,6 @@ import React, {useState} from 'react';
 import { validateEmail, validateName, validateMessage} from '../../utils/helpers';
 
 
-
-
-
-
-
 export default function Contact(props) {
 
   const [name, setName] = useState('');
@@ -69,7 +64,7 @@ export default function Contact(props) {
       <br />
       <form>
         <div className="form-group" onSubmit={handleFormSubmit}>
-          <div className = "container bg-info rounded">
+          <div className = "container bg-info rounded" style={{ maxWidth: 600, }}>
             <label htmlFor="name">Name:</label>
               <input
                 onChange={handleInputChange}
@@ -95,8 +90,8 @@ export default function Contact(props) {
               />
               <br />
             <label htmlFor="Message">Message:</label>
-              <input
-                onChange={handleInputChange}
+              <textarea 
+              onChange={handleInputChange}
                 onBlur = {checkEmpty}
                 value={message}
                 name="message"
@@ -104,7 +99,7 @@ export default function Contact(props) {
                 className="form-control"
                 placeholder="message"
                 id="message"
-              />
+                />
             <br />
           </div> 
           <br />     

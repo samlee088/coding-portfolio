@@ -5,22 +5,9 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar sticky-top navbar-expand-lg p-3 bg-light" >
         <div class="container-fluid">
-        <h3 class="navbar-dark">Samuel Lee</h3>
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li className="nav-item active">
-                    <a
-                    href="#home"
-                    id="pills-home-tab" 
-                    data-toggle="pill"
-                    role="tab"
-                    aria-controls="pills-home"
-                    onClick={() => handlePageChange('Home')}
-                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                    >
-                    Home
-                    </a>
-                </li>
-                <li className="nav-item">
+        <h2 class="navbar-dark" style={{ textAlign:"Center", fontFamily: "'Source Sans Pro', Helvetica, Arial, sans-serif;", color:"#4b2e83", backgroundColor: "#b7a57a", borderRadius: "10px"}}>Samuel Lee - Software Engineer</h2>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" >
+                <li className="nav-item active" >
                     <a
                     href="#about"
                     id="pills-home-tab" 

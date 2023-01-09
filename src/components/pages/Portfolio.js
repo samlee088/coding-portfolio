@@ -12,6 +12,7 @@ export default function Portfolio() {
     <div>
 
       <h1>Portfolio</h1>
+
       <br />
 
       <div class="container">
@@ -27,10 +28,14 @@ export default function Portfolio() {
             <a class="btn btn-primary" href="https://github.com/samlee088/Big-Bad-Brain-Blender-Buster" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
-          <hr/>
+
+        <br />
+        <hr/>
+        <br />
+
         <div class = "row">
           <div class="col-md-7">
-            <a href = "https://nelson92.github.io/project-one/" target="_blank" rel="noreferrer">
+            <a href = "https://samlee088.github.io/news-aggregator/" target="_blank" rel="noreferrer">
                 <img class="img-fluid rounded mb-3 mb-md-0" src={newsAggregator} alt = "news-aggregator application screenshot"/>
             </a> 
           </div>
@@ -40,6 +45,11 @@ export default function Portfolio() {
             <a class="btn btn-primary" href="https://github.com/samlee088/news-aggregator" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
+
+        <br />
+        <hr/>
+        <br />
+
 
         <div class = "row">
           <div class="col-md-7">
@@ -54,6 +64,11 @@ export default function Portfolio() {
           </div>
         </div>
 
+        <br />
+        <hr/>
+        <br />
+
+
         <div class = "row">
           <div class="col-md-7">
             <a href = "https://jate-pnw-edition.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -66,6 +81,11 @@ export default function Portfolio() {
             <a class="btn btn-primary" href="https://github.com/samlee088/text-editor" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
+
+        <br />
+        <hr/>
+        <br />
+
 
         <div class = "row">
           <div class="col-md-7">
@@ -80,6 +100,11 @@ export default function Portfolio() {
           </div>
         </div>
 
+        <br />
+        <hr/>
+        <br />
+
+
         <div class = "row">
           <div class="col-md-7">
             <a href = "https://github.com/samlee088/team-profile-generator" target="_blank" rel="noreferrer">
@@ -92,8 +117,6 @@ export default function Portfolio() {
             <a class="btn btn-primary" href="https://github.com/samlee088/note-taker" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
-
-            
       </div>
     </div>
   );

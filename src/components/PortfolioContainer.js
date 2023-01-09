@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -12,11 +11,8 @@ export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 
     const renderPage = () => {
-        if (currentPage === 'Home') {
-            return <Home />;
-        }
-        if (currentPage === 'About') {
-            return <About />;
+        if (currentPage === 'Contact') {
+            return <Contact />;
         }
         if (currentPage === 'Portfolio') {
             return < Portfolio />;
@@ -24,7 +20,7 @@ export default function PortfolioContainer() {
         if (currentPage === 'Resume') {
             return < Resume />;
         }
-        return <Contact />;
+        return <About />;
     };
 
     
@@ -32,11 +28,23 @@ export default function PortfolioContainer() {
 
     return (
         <div class="d-flex flex-column justify-content-between" style={{height:"100vh"}}>
-        <div>
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-          {renderPage()}
-        </div>
-          < Footer />
+            <div>
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
+            </div>
+            {/* <div>
+                <About />
+            </div>
+            <div>
+                <Portfolio />
+            </div>
+            <div>
+                <Resume />
+            </div>
+            <div>
+                <Contact />
+            </div> */}
+            < Footer />
         </div>
       );
 }
