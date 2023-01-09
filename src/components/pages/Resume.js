@@ -1,10 +1,14 @@
 import React from 'react';
-
+import ResumeSkills from './ResumeSkills'
 
 export default function Resume() {
     return (
 
         <div>
+
+            <div>
+                < ResumeSkills />
+            </div>
             <p>
                 Hello, Please see link to my resume
             </p>

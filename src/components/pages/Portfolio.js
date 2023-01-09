@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <div>
 
-      <h1>Portfolio</h1>
+      <h1 class="text-center font-weight-bold" style={{fontSize:"55px"}}>Portfolio</h1>
 
       <br />
 
