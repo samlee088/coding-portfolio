@@ -2,76 +2,86 @@ import React from 'react';
 
 export default function ResumeSkills() {
 
-
+const styles = { 
+    topContainer : {
+        display: "flex",
+        flexDirection: "row",
+        paddingRight:"10px",
+        justifyContent:"space-between"
+        
+      },
+      listItems: {
+        justifyContent:"space-around",
+        fontSize:"20px"
+      }
+    }
     
     return(
         <div style={{backgroundColor:"#eee", marginTop:"100px", paddingTop:"75px", paddingBottom:"75px"}}>
-            <h1 class="text-center" style={{fontSize:"55px"}}> Skills</h1>
-
-            <div class="row d-flex justify-content-around">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card text-center">
-                            <div class="card-header">
-                                Front End
-                            </div>
-                                <div class="card-body">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            HTML5
-                                        </li>
-                                        <li>
-                                            CSS3
-                                        </li>
-                                        <li>
-                                            Javascript
-                                        </li>
-                                        <li>
-                                            JQuery
-                                        </li>
-                                        <li>
-                                            Bootstrap
-                                        </li>
-                                        <li>
-                                            Handelbars.js
-                                        </li>
-                                        <li>
-                                            ReactJS
-                                        </li>
-                                    </ul>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card text-center">
-                            <div class="card-header">
-                               Back End
-                            </div>
-                                <div class="card-body">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            Node.js
-                                        </li>
-                                        <li>
-                                            MySQL
-                                        </li>
-                                        <li>
-                                            MongoDB
-                                        </li>
-                                        <li>
-                                            Express
-                                        </li>
-                                    </ul>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-
+        <div class="d-flex justify-content-center">
+            <p style={{fontSize:"50px"}}>Full Stack Software Engineer</p>
         </div>
+           
+        <div
+        className="page-section"
+        xyz="fade small stagger delay-4 ease-in-out"
+        >
+            <div class="d-flex justify-content-center ">
+                <ul class="list-unstyled " style={styles.topContainer} >
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>HTML5</p>
+                        <i class="devicon-html5-plain-wordmark colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>CSS3</p>
+                        <i class="devicon-css3-plain-wordmark colored" style={{fontSize:"75px"}}></i>
+            
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>Javascript</p>
+                        <i class="devicon-javascript-plain colored" style={{fontSize:"75px"}}></i>
+            
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>JQuery</p>
+                        <i class="devicon-jquery-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>Bootstrap</p>
+                        <i class="devicon-bootstrap-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>Handelbars.js</p>
+                        <i class="devicon-handlebars-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>ReactJS</p>
+                        <i class="devicon-react-original colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center ">
+                <ul class="list-unstyled " style={styles.topContainer} >
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>Node.js</p>
+                        <i class="devicon-nodejs-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>MySQL</p>
+                        <i class="devicon-mysql-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>MongoDB</p>
+                        <i class="devicon-mongodb-plain colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                    <li style={styles.listItems} className='xyz-nested'>
+                        <p>Express</p>
+                        <i class="devicon-express-original colored" style={{fontSize:"75px"}}></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
         
 
 

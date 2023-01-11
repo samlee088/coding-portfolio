@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import PortfolioContainer from "./components/PortfolioContainer"
+import Navigation from "./components/Navigation"
+import { XyzTransition } from "@animxyz/react";
+import "@animxyz/core";
 
 // function App() {
 //   return (
@@ -23,6 +25,18 @@ import PortfolioContainer from "./components/PortfolioContainer"
 //   );
 // }
 
-const App = () => <PortfolioContainer />;
+// const App = () => <Navigation />;
 
-export default App;
+// export default App;
+
+
+export default function App() {
+    return (
+      <XyzTransition appear duration="auto">
+        <div className="page-wrap">
+          <Navigation />
+        </div>
+      </XyzTransition>
+    );
+  }
+
