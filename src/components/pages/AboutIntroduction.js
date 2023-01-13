@@ -1,14 +1,14 @@
-import {React,useState} from 'react';
+import {React,useState, useEffect} from 'react';
 import southParkAvatar from '../../images/southParkAvatar.png'
 
 
 export default function AboutIntroduction() {
-    const [show, handleshow,useEffect] = useState(false);
+    const [show, handleShow] = useState(false);
     const transitionNavBar = () => {
     if (window.scrollY > 100) {
-        handleshow(true);
+        handleShow(true);
     } else {
-        handleshow(false)
+        handleShow(false)
     }
 }
     useEffect(() => {   
@@ -31,8 +31,8 @@ export default function AboutIntroduction() {
             <div className={`nav ${show && "xyz-nested"}`}>
                 <img src={southParkAvatar} style={{borderRadius:"20px"}}/>
             </div>
-            <div className="xyz-nested" style={{textAlign: "left", width:"40%"}}>
-                <h3 className="xyz-nested">Hello from the Pacific Northwest, my name is Sam~! 
+            <div className={`nav ${show && "xyz-nested"}`} style={{textAlign: "left", width:"40%"}}>
+                <h3 className={`nav ${show && "xyz-nested"}`}>Hello from the Pacific Northwest, my name is Sam~! 
                     <br/>
                     <br/>
                     I am a full-stack web developer with a mathematics degree from the University of Washington. I am also a sufferer of stockholm syndrome onset by my cat overload Leela. Additionally I have strong passions for food and fitness with a mindset of working out to eat, rather than eating to workout ^.^ 
