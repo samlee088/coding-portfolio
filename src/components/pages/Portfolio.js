@@ -6,11 +6,10 @@ import socialMediaApiScreenshot from '../../../src/images/socialMediaApiScreensh
 import teamProfileGenerator from '../../../src/images/teamProfileGenerator.png';
 import textEditor from '../../../src/images/textEditor.png';
 
-// row d-flex justify-content-center align-items-center
 export default function Portfolio() {
   return (
 
-    <div>
+    <div style={{backgroundColor:"#eee", paddingTop:"75px", paddingBottom:"75px"}}>
     <div>
 
       <h1 class="text-center font-weight-bold" style={{fontSize:"55px"}}>Portfolio</h1>

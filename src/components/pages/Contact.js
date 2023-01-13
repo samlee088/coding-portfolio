@@ -58,69 +58,73 @@ export default function Contact(props) {
 
 
   return (
-    <div>
-      <br />
-      <h1 class = "text-center">Contact Page</h1>
-      <br />
-      <form>
-        <div className="form-group" onSubmit={handleFormSubmit}>
-          <div className = "container bg-info rounded" style={{ maxWidth: 600, }}>
-            <label htmlFor="name">Name:</label>
-              <input
-                onChange={handleInputChange}
-                onBlur = {checkEmpty}
-                value={name}
-                name="name"
-                type="text"
-                className="form-control"
-                placeholder="name"
-                id="search"
-              />
-            <br />
-            <label htmlFor="email">Email:</label>
-              <input
-                onChange={handleInputChange}
-                onBlur = {checkEmpty}
-                value={email}
-                name="email"
-                type="text"
-                className="form-control"
-                placeholder="email"
-                id="email"
-              />
-              <br />
-            <label htmlFor="Message">Message:</label>
-              <textarea 
-              onChange={handleInputChange}
-                onBlur = {checkEmpty}
-                value={message}
-                name="message"
-                type="text"
-                className="form-control"
-                placeholder="message"
-                id="message"
-                />
-            <br />
-          </div> 
-          <br />     
-          <div class="form-row text-center">
-            <div class="col-12">                                           
-              <button
-                onClick={handleFormSubmit}
-                className="btn btn-primary"
-                type="submit"
-              >
-                Submit
-              </button>
-              {errorMessage && (
-                <div>
-                  <p className="error-text">{errorMessage}</p>
-                 </div>
-              )}
-            </div>  
-          </div>     
+    <div style={{backgroundColor:"#eee", marginTop:"100px", paddingTop:"75px", paddingBottom:"75px"}}>
+      <div class="d-flex justify-content-center">
+            <p style={{fontSize:"50px"}}>Contact</p>
         </div>
-      </form>
+      <br />
+      <div  className="page-hero"
+      xyz="fade small stagger ease-out-back duration-30">
+        <form >
+          <div className="form-group xyz-nested" onSubmit={handleFormSubmit}>
+            <div className = "container rounded" style={{ maxWidth: 600,backgroundColor:"#9BB9BD" }}>
+              <label htmlFor="name">Name:</label>
+                <input
+                  onChange={handleInputChange}
+                  onBlur = {checkEmpty}
+                  value={name}
+                  name="name"
+                  type="text"
+                  className="form-control"
+                  placeholder="name"
+                  id="search"
+                />
+              <br />
+              <label htmlFor="email">Email:</label>
+                <input
+                  onChange={handleInputChange}
+                  onBlur = {checkEmpty}
+                  value={email}
+                  name="email"
+                  type="text"
+                  className="form-control"
+                  placeholder="email"
+                  id="email"
+                />
+                <br />
+              <label htmlFor="Message">Message:</label>
+                <textarea 
+                onChange={handleInputChange}
+                  onBlur = {checkEmpty}
+                  value={message}
+                  name="message"
+                  type="text"
+                  className="form-control"
+                  placeholder="message"
+                  id="message"
+                  />
+              <br />
+            </div> 
+            <br />     
+            <div class="form-row text-center">
+              <div class="col-12">                                           
+                <button
+                  onClick={handleFormSubmit}
+                  className="btn btn-primary"
+                  type="submit"
+                >
+                  Submit
+                </button>
+                {errorMessage && (
+                  <div>
+                    <p className="error-text">{errorMessage}</p>
+                  </div>
+                )}
+              </div>  
+            </div>     
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
