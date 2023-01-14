@@ -12,7 +12,7 @@ export default function Resume() {
         
             <div class="d-flex justify-content-center" style={{marginTop:"50px"}}>
                 <a href = 'https://drive.google.com/file/d/1rLOS1ecYuNgu8gpxNyQF4jhFxdc2t5Qb/view?usp=sharing' target = '_blank' rel="noreferrer">
-                    <button>Link to Download PDF</button>
+                    <button type="button" class="btn btn-primary btn-lg">Link to Download PDF</button>
                 </a>
             </div>
 
