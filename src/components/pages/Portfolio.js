@@ -25,7 +25,7 @@ export default function Portfolio() {
           </div>
           <div className="col-md-5">
               <h3>Big Bad Brain Blender Buster</h3>
-              <p>Quiz Application, using javascript</p>
+              <p>Front end quiz application </p>
               <a className="btn btn-primary" href="https://github.com/samlee088/Big-Bad-Brain-Blender-Buster" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Portfolio() {
           </div>
           <div className="col-md-5">
               <h3>News Aggregator</h3>
-              <p>News Reader using </p>
+              <p>News reader with random fact generator </p>
               <a className="btn btn-primary" href="https://github.com/samlee088/news-aggregator" target="_blank" rel="noreferrer">View Project</a>
 
           </div>
@@ -60,8 +60,8 @@ export default function Portfolio() {
             </a> 
           </div>
           <div className="col-md-5">
-              <h3>Social Media API API</h3>
-              <p>Social Media API API </p>
+              <h3>Social Media API</h3>
+              <p>Back-end application for an API for a potential social media website </p>
               <a className="btn btn-primary" href="https://github.com/samlee088/social-network-api" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Portfolio() {
           </div>
           <div className="col-md-5">
               <h3>Text Editor</h3>
-              <p>Online Text Editor </p>
+              <p>Online Text Editor that can also be ran offline</p>
               <a className="btn btn-primary" href="https://github.com/samlee088/text-editor" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function Portfolio() {
           </div>
           <div className="col-md-5">
                 <h3>Note Taker</h3> 
-                <p>Online Note Taker </p> 
+                <p>Online Note Taker for quick notes that can easily have noted added and removed </p> 
                 <a className="btn btn-primary" href="https://github.com/samlee088/note-taker" target="_blank"   rel="noreferrer">View Project</a>
             </div>  
         </div>
@@ -115,7 +115,7 @@ export default function Portfolio() {
           </div>
           <div className="col-md-5">
               <h3>Team Profile Generator</h3>
-              <p>Online Team Profile Generator </p>
+              <p>Back-end application for a manager to help create a team profile </p>
               <a className="btn btn-primary" href="https://github.com/samlee088/team-profile-generator" target="_blank" rel="noreferrer">View Project</a>
           </div>
         </div>
