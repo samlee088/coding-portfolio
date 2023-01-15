@@ -59,12 +59,12 @@ export default function Contact(props) {
 
   return (
     <div style={{backgroundColor:"#eee", marginTop:"100px", paddingTop:"75px", paddingBottom:"75px"}}>
-      <div class="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
             <p style={{fontSize:"50px"}}>Contact</p>
         </div>
       <br />
       <div  className="page-hero"
-      xyz="fade small stagger ease-out-back duration-30">
+      xyz="fade small stagger ease-out-back duration-30 xyz-in">
         <form >
           <div className="form-group xyz-nested" onSubmit={handleFormSubmit}>
             <div className = "container rounded" style={{ maxWidth: 600,backgroundColor:"#9BB9BD" }}>
@@ -106,8 +106,8 @@ export default function Contact(props) {
               <br />
             </div> 
             <br />     
-            <div class="form-row text-center">
-              <div class="col-12">                                           
+            <div className="form-row text-center">
+              <div className="col-12">                                           
                 <button
                   onClick={handleFormSubmit}
                   className="btn btn-primary"

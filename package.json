@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://samlee088.github.io/coding-portfolio/",
   "dependencies": {
+    "@animxyz/core": "^0.6.6",
     "@animxyz/react": "^0.6.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
     "apollo-server-express": "^2.15.0",
     "axios": "^1.2.2",
     "bootstrap": "^5.2.3",

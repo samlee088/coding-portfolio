@@ -1,16 +1,33 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 import Navigation from "./components/Navigation"
-import { XyzTransition } from "@animxyz/react";
-import "@animxyz/core";
+import 'animate.css';
+
+
 
 export default function App() {
+  // const [onOff, setOnOff] = useState(true)
+  //   return (
+  //     <>
+  //    {onOff ? (<XyzTransition appear duration="auto">
+  //       <div className="page-wrap">
+  //         <Navigation setOnOff={setOnOff}/>
+  //       </div>
+  //       </XyzTransition>)
+  //       : ( <div className="page-wrap">
+  //         <Navigation setOnOff={setOnOff}/>
+  //       </div>)
+  //    }
+  //     </>
     return (
-      <XyzTransition appear duration="auto">
+    
+    
         <div className="page-wrap">
-          <Navigation />
+          <Navigation/>
         </div>
-      </XyzTransition>
+      
+      
+    
     );
   }
 

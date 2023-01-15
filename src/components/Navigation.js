@@ -4,30 +4,41 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import Footer from './pages/Footer';
+// import Footer from './pages/Footer';
 
 
-export default function PortfolioContainer() {
+export default function PortfolioContainer({setOnOff}) {
     const [currentPage, setCurrentPage] = useState('Home');
+    const [transition, setTransition] = useState({
+        Contact: false, Portfolio: false, Resume: false, About: true
+    })
 
     const renderPage = () => {
         if (currentPage === 'Contact') {
-            return <Contact />;
+            return <Contact transition={transition}/>;
         }
         if (currentPage === 'Portfolio') {
-            return < Portfolio />;
+            return < Portfolio transition={transition}/>;
         }
         if (currentPage === 'Resume') {
-            return < Resume />;
+            return < Resume transition={transition}/>;
         }
-        return <About />;
+        return <About transition={transition}/>;
     };
 
     
-    const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => {
+        const newTransition = {Contact: false, Portfolio: false, Resume: false, About: false, [page]: true}
+        console.log(newTransition)
+        setTransition(newTransition)
+        setCurrentPage(page);
+    }
+
+
+
 
     return (
-        <div class="d-flex flex-column justify-content-between" style={{height:"100vh"}}>
+        <div className="d-flex flex-column justify-content-between" style={{height:"100vh"}}>
             <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
