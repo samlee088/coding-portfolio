@@ -63,10 +63,9 @@ export default function Contact(props) {
             <p style={{fontSize:"50px"}}>Contact</p>
         </div>
       <br />
-      <div  className="page-hero"
-      xyz="fade small stagger ease-out-back duration-30 xyz-in">
+      <div  className="animate__animated animate__tada">
         <form >
-          <div className="form-group xyz-nested" onSubmit={handleFormSubmit}>
+          <div className="form-group" onSubmit={handleFormSubmit}>
             <div className = "container rounded" style={{ maxWidth: 600,backgroundColor:"#9BB9BD" }}>
               <label htmlFor="name">Name:</label>
                 <input
