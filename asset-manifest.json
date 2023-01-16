@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coding-portfolio/static/css/main.cab90204.css",
-    "main.js": "/coding-portfolio/static/js/main.0f4e508e.js",
+    "main.js": "/coding-portfolio/static/js/main.f77d22bc.js",
     "static/js/787.28cb0dcd.chunk.js": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/spaceNeedle.jpg": "/coding-portfolio/static/media/spaceNeedle.bdc3e406a78655958758.jpg",
     "static/media/big-bad-brain-blender-buster-screenshot.png": "/coding-portfolio/static/media/big-bad-brain-blender-buster-screenshot.929661ba0d0adec18080.png",
@@ -13,11 +13,11 @@
     "static/media/noteTaker.png": "/coding-portfolio/static/media/noteTaker.eb2cc9bc45b96f506266.png",
     "index.html": "/coding-portfolio/index.html",
     "main.cab90204.css.map": "/coding-portfolio/static/css/main.cab90204.css.map",
-    "main.0f4e508e.js.map": "/coding-portfolio/static/js/main.0f4e508e.js.map",
+    "main.f77d22bc.js.map": "/coding-portfolio/static/js/main.f77d22bc.js.map",
     "787.28cb0dcd.chunk.js.map": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab90204.css",
-    "static/js/main.0f4e508e.js"
+    "static/js/main.f77d22bc.js"
   ]
 }
