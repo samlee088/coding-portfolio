@@ -18,7 +18,7 @@ const styles = {
     return(
         <div>
             <div className="d-flex justify-content-center animate__animated animate__fadeIn">
-            <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Full Stack Software Engineer</h1>
+            <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Resume</h1>
         </div>
            
         <div>
