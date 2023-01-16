@@ -78,7 +78,7 @@ export default function Contact(props) {
 
 
   return (
-    <div style={{backgroundColor:"#eee", paddingTop:"75px", paddingBottom:"75px"}}>
+    <div style={{backgroundColor:"#D0CDC0", paddingTop:"75px", paddingBottom:"75px"}}>
       <div className="d-flex justify-content-center">
       <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Contact</h1>
         </div>

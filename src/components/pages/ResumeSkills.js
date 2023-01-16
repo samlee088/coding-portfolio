@@ -12,19 +12,16 @@ const styles = {
       },
       listItems: {
         fontSize:"20px",
-        
       }
     }
     
     return(
-        <div style={{backgroundColor:"#eee", paddingTop:"75px", paddingBottom:"75px"}}>
-        <div className="d-flex justify-content-center animate__animated animate__fadeIn">
-        <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Full Stack Software Engineer</h1>
+        <div>
+            <div className="d-flex justify-content-center animate__animated animate__fadeIn">
+            <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Full Stack Software Engineer</h1>
         </div>
            
-        <div
-        className="page-section"
-        >
+        <div>
              <div className="d-flex justify-content-center animate__animated animate__fadeIn">
                 <p style={{fontSize:"50px", marginTop:"50px"}}>Front End</p>
             </div>
@@ -82,12 +79,8 @@ const styles = {
                     <i className="devicon-express-original colored" style={{fontSize:"75px"}}></i>
                 </li>
             </ul>
-            
         </div>
     </div>
-        
-
-
     )
 }
 

@@ -9,16 +9,12 @@ import textEditor from '../../../src/images/textEditor.png';
 export default function Portfolio() {
   return (
 
-    <div style={{backgroundColor:"#eee", paddingTop:"75px", paddingBottom:"75px"}}>
-    <div>
-
+    <div style={{backgroundColor:"#D0CDC0", paddingTop:"75px", paddingBottom:"75px"}}>
       <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Portfolio</h1>
-
       <br />
-
       <div className="container animate__animated animate__zoomIn">
         <div className= "row d-flex justify-content-center align-items-center">
-          <div className="col-md-7 ">
+          <div className="col-md-7 bg-image hover-overlay">
             <a href = "https://big-bad-brain-blender-buster.herokuapp.com/" target="_blank" rel="noreferrer">
                 <img className="img-fluid rounded mb-3 mb-md-0" src={bigBadBrainBusterImg} alt = "big-bad-brain-blender-buster quiz application screenshot"/>
             </a> 
@@ -52,7 +48,6 @@ export default function Portfolio() {
         <hr/>
         <br />
 
-
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-md-7">
             <a href = "https://github.com/samlee088/social-network-api" target="_blank" rel="noreferrer">
@@ -69,7 +64,6 @@ export default function Portfolio() {
         <br />
         <hr/>
         <br />
-
 
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-md-7">
@@ -88,7 +82,6 @@ export default function Portfolio() {
         <hr/>
         <br />
 
-
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-md-7">
             <a href = "https://github.com/samlee088/note-taker" target="_blank" rel="noreferrer">
@@ -106,7 +99,6 @@ export default function Portfolio() {
         <hr/>
         <br />
 
-
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-md-7">
             <a href = "https://github.com/samlee088/team-profile-generator" target="_blank" rel="noreferrer">
@@ -120,7 +112,6 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

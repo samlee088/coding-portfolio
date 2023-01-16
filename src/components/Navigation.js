@@ -4,10 +4,10 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-// import Footer from './pages/Footer';
+import Footer from './pages/Footer';
 
 
-export default function PortfolioContainer({setOnOff}) {
+export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
     const [transition, setTransition] = useState({
         Contact: false, Portfolio: false, Resume: false, About: true
@@ -25,7 +25,6 @@ export default function PortfolioContainer({setOnOff}) {
         }
         return <About transition={transition}/>;
     };
-
     
     const handlePageChange = (page) => {
         const newTransition = {Contact: false, Portfolio: false, Resume: false, About: false, [page]: true}
@@ -34,28 +33,13 @@ export default function PortfolioContainer({setOnOff}) {
         setCurrentPage(page);
     }
 
-
-
-
     return (
         <div className="d-flex flex-column justify-content-between" style={{height:"100vh"}}>
             <div>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+                <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+                {renderPage()}
             </div>
-                        {/* <div>
-                            <About />
-                        </div>
-                        <div>
-                            <Portfolio />
-                        </div>
-                        <div>
-                            <Resume />
-                        </div>
-                        <div>
-                            <Contact />
-                        </div>
-                        < Footer /> */}
+                < Footer />
         </div>
       );
 }

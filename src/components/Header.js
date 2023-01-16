@@ -3,11 +3,10 @@ import React from 'react';
 
 function Header({ currentPage, handlePageChange}) {
   return (
-    <div> 
-    
-            <nav className="navbar sticky-top navbar-expand-lg p-3 bg-light" >
+    <div className="sticky-top"> 
+            <nav className="navbar navbar-expand-lg p-3 bg-light" >
                 <div className="container-fluid" >
-                    <h2 className="navbar-dark animate__animated animate__zoomIn" style={{ textAlign:"Center", fontFamily: "'Source Sans Pro', Helvetica, Arial, sans-serif", color:"#4b2e83", backgroundColor: "#b7a57a", borderRadius: "10px"}}>
+                    <h2 className="navbar-dark animate__animated animate__zoomIn" style={{ textAlign:"Center", fontFamily: "'Source Sans Pro', Helvetica, Arial, sans-serif", color:"#142526", backgroundColor: "#D0CDC0", borderRadius: "10px"}}>
                         Samuel Lee - Software Engineer
                     </h2>
 
@@ -68,8 +67,6 @@ function Header({ currentPage, handlePageChange}) {
                 </div>   
             </nav>  
     </div>
-    
-    
   );
 }
 

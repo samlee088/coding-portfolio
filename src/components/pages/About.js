@@ -13,7 +13,7 @@ export default function About() {
           </View>
         <img src={spaceNeedle} style={{ width: "100%"}} alt="background" />
       </div>
-      <div style={{marginTop:"0px", paddingTop:"100px",backgroundColor:"#eee"}}>
+      <div style={{marginTop:"0px", paddingTop:"100px",backgroundColor:"#D0CDC0"}}>
         <AboutIntroduction />;
       </div>
     </div>

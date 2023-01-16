@@ -1,17 +1,11 @@
 import React from 'react';
 
-
-
 export default function Footer() {
 return (
 
     <footer className="text-center text-white" style={{backgroundColor: '#f1f1f1'}}>
-
         <div className="container pt-4">
-
             <section className="mb-4">
-        
-        
             {/* <!-- Google --> */}
             <a
                 className="btn text-white btn-floating m-1"
@@ -44,6 +38,5 @@ return (
             </section>
          </div>
     </footer>
-
     );
 }
