@@ -4,7 +4,7 @@ export function validateEmail(email) {
 }
   
 export function validateName(name) {
-    const nameCheck = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/;
+    const nameCheck = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{1,}$/;
     if (name.match(nameCheck)) {
         return true;
     }

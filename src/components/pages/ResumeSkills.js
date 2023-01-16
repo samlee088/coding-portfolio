@@ -18,17 +18,17 @@ const styles = {
     
     return(
         <div style={{backgroundColor:"#eee", marginTop:"100px", paddingTop:"75px", paddingBottom:"75px"}}>
-        <div className="d-flex justify-content-center animate__animated animate__fadeInDownBig">
+        <div className="d-flex justify-content-center animate__animated animate__fadeIn">
             <p style={{fontSize:"50px"}}>Full Stack Software Engineer</p>
         </div>
            
         <div
         className="page-section"
         >
-             <div className="d-flex justify-content-center animate__animated animate__fadeInDownBig">
+             <div className="d-flex justify-content-center animate__animated animate__fadeIn">
                 <p style={{fontSize:"50px"}}>Front End</p>
             </div>
-            <ul className="list-unstyled animate__animated animate__zoomInUp" style={styles.topContainer} >
+            <ul className="list-unstyled animate__animated animate__fadeInDownBig" style={styles.topContainer} >
                 <li style={styles.listItems} className=''>
                     <p>HTML5</p>
                     <i className="devicon-html5-plain-wordmark colored" style={{fontSize:"75px"}}></i>
@@ -61,10 +61,10 @@ const styles = {
                 </li>
             </ul>
             
-            <div className="d-flex justify-content-center animate__animated animate__fadeInDownBig">
+            <div className="d-flex justify-content-center animate__animated animate__fadeIn">
                 <p style={{fontSize:"50px", marginTop:"75px"}}>Back End</p>
             </div>
-            <ul className="list-unstyled animate__animated animate__zoomInUp " style={styles.topContainer} >
+            <ul className="list-unstyled animate__animated animate__fadeInDownBig " style={styles.topContainer} >
                 <li style={styles.listItems} className=''>
                     <p>Node.js</p>
                     <i className="devicon-nodejs-plain colored" style={{fontSize:"75px"}}></i>

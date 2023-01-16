@@ -41,12 +41,12 @@ export default function Contact(props) {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    if(!validateEmail(email)) {
-      setErrorMessage('Please enter a valid email :) ');
-      return;
-    }
     if(!validateName(name)) {
       setErrorMessage('Please enter a valid name :) ');
+      return;
+    }
+    if(!validateEmail(email)) {
+      setErrorMessage('Please enter a valid email :) ');
       return;
     }
     if(!validateMessage(message)) {
@@ -74,10 +74,6 @@ export default function Contact(props) {
     setEmail('');
     setMessage('');
     
-  };
-
-  const handleChange = (e) => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
 
