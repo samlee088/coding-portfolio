@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { validateEmail, validateName, validateMessage} from '../../utils/helpers';
-
+import { send } from 'emailjs-com';
 
 export default function Contact(props) {
 
@@ -8,6 +8,12 @@ export default function Contact(props) {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  const [toSend, setToSend] = useState({
+    name: '',
+    message: '',
+    email: '',
+  });
 
   function checkEmpty(e) {
     if(!e.target.value) {
@@ -18,8 +24,8 @@ export default function Contact(props) {
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
-    const { name, value } = e.target;
-
+    const { name, value, } = e.target;
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
     if ( name ==="name" ) {
       setName(value);
     } else if( name === "email") {
@@ -49,11 +55,29 @@ export default function Contact(props) {
     }
     // Alert the user their first and last name, clear the inputs
     setErrorMessage('');
-    alert(`Hello ${name} ${email} ${message}`);
+    
+     send(
+      'service_bdiqeoa',
+      'template_yg700uv',
+      toSend,
+      '-AdyUNdziDTS10xoC'
+    )
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+    })
+    .catch((err) => {
+      console.log('FAILED...', err);
+    });
+
+
     setName('');
     setEmail('');
     setMessage('');
     
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
 

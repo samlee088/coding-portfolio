@@ -22,7 +22,7 @@ export default function AboutIntroduction() {
         
         <div className="d-flex flex-row justify-content-around">
             <div className={`nav ${show && "animate__animated animate__slideInLeft"}`}>
-                <img src={southParkAvatar} style={{borderRadius:"20px"}} alt="avator"/>
+                <img src={southParkAvatar} style={{borderRadius:"20px"}} alt="avatar"/>
             </div>
             <div className={`nav ${show && "animate__animated animate__slideInRight"}`} style={{textAlign: "left", width:"40%"}}>
                 <h3 >Hello from the Pacific Northwest, my name is Sam~! 

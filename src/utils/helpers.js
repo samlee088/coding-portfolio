@@ -4,7 +4,7 @@ export function validateEmail(email) {
 }
   
 export function validateName(name) {
-    const nameCheck = /^[A-Za-z]\w{1,14}$/;
+    const nameCheck = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/;
     if (name.match(nameCheck)) {
         return true;
     }
@@ -12,7 +12,7 @@ export function validateName(name) {
 }
 
 export function validateMessage(message) {
-    const messageCheck = /^[A-Za-z]\w{3,14}$/;
+    const messageCheck = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/;
     if (message.match(messageCheck)) {
         return true;
     }
