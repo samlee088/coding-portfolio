@@ -5,7 +5,9 @@
 
   ## Description
 
-  This is a coding portfolio that was created for professional career opportunities. This application was created with an emphasis on react
+  This is a coding portfolio that was created for professional career opportunities. This application was created with an emphasis on react.
+
+  The application will serve as as way to showcase to future potential employers my coding portfolio. The application includes a generic about me section, a section that features past projects, a section that highlights my coding technical skills, additional with a link to download my resume, and finally a section to contact me directly. 
 
 
   ## Table of Contents
