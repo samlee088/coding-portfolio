@@ -78,14 +78,14 @@ export default function Contact(props) {
 
 
   return (
-    <div style={{backgroundColor:"#eee", marginTop:"100px", paddingTop:"75px", paddingBottom:"75px"}}>
+    <div style={{backgroundColor:"#eee", paddingTop:"75px", paddingBottom:"75px"}}>
       <div className="d-flex justify-content-center">
-            <p style={{fontSize:"50px"}}>Contact</p>
+      <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Contact</h1>
         </div>
       <br />
       <div  className="animate__animated animate__tada">
         <form >
-          <div className="form-group" onSubmit={handleFormSubmit}>
+          <div className="form-group" onSubmit={handleFormSubmit} style={{marginTop:"50px"}}>
             <div className = "container rounded" style={{ maxWidth: 600,backgroundColor:"#9BB9BD" }}>
               <label htmlFor="name">Name:</label>
                 <input
