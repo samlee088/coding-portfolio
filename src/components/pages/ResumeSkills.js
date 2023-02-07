@@ -18,8 +18,8 @@ const styles = {
     return(
         <div>
             <div className="d-flex justify-content-center animate__animated animate__fadeIn">
-            <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}>Resume</h1>
-        </div>
+                <h1 className="text-center font-weight-bold" style={{fontSize:"55px"}}> Technical Skills</h1>
+            </div>
            
         <div>
              <div className="d-flex justify-content-center animate__animated animate__fadeIn">
@@ -49,8 +49,16 @@ const styles = {
                     <i className="devicon-bootstrap-plain colored" style={{fontSize:"75px"}}></i>
                 </li>
                 <li style={styles.listItems} className=''>
-                    <p>Handelbars.js</p>
+                    <p>Handelbars</p>
                     <i className="devicon-handlebars-plain colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
+                    <p>npm</p>
+                    <i className="devicon-npm-original-wordmark colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
+                    <p>Babel</p>
+                    <i className="devicon-babel-plain" style={{fontSize:"75px"}}></i>
                 </li>
                 <li style={styles.listItems} className=''>
                     <p>ReactJS</p>
@@ -71,12 +79,32 @@ const styles = {
                     <i className="devicon-mysql-plain colored" style={{fontSize:"75px"}}></i>
                 </li>
                 <li style={styles.listItems} className=''>
+                    <p>Sequelize</p>
+                    <i className="devicon-sequelize-plain colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
                     <p>MongoDB</p>
                     <i className="devicon-mongodb-plain colored" style={{fontSize:"75px"}}></i>
                 </li>
                 <li style={styles.listItems} className=''>
+                    <p>Heroku</p>
+                    <i className="devicon-heroku-plain colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
+                    <p>Graphql</p>
+                    <i className="devicon-graphql-plain" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
                     <p>Express</p>
                     <i className="devicon-express-original colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
+                    <p>Jest</p>
+                    <i className="devicon-jest-plain colored" style={{fontSize:"75px"}}></i>
+                </li>
+                <li style={styles.listItems} className=''>
+                    <p>Git</p>
+                    <i className="devicon-git-plain colored" style={{fontSize:"75px"}}></i>
                 </li>
             </ul>
         </div>
