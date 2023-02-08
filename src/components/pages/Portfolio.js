@@ -19,7 +19,7 @@ export default function Portfolio() {
 
       <div className= "row d-flex justify-content-center align-items-center">
           <div className="col-md-7 bg-image hover-overlay">
-            <a href = "https://fit-nuts.herokuapp.com/" target="_blank" rel="noreferrer">
+            <a href = "https://github.com/samlee088/fit-nuts" target="_blank" rel="noreferrer">
                 <img className="img-fluid rounded mb-3 mb-md-0" src={fitNuts} alt = "fitNuts fitness application screenshot"/>
             </a> 
           </div>
