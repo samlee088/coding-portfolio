@@ -1,6 +1,6 @@
 import React from 'react';
 import spaceNeedle from '../../images/spaceNeedle.jpg'
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import AboutIntroduction from './AboutIntroduction';
 import 'animate.css';
 
