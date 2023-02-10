@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coding-portfolio/static/css/main.cab90204.css",
-    "main.js": "/coding-portfolio/static/js/main.3e5d0043.js",
+    "main.js": "/coding-portfolio/static/js/main.6e6f6ef4.js",
     "static/js/787.28cb0dcd.chunk.js": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/spaceNeedle.jpg": "/coding-portfolio/static/media/spaceNeedle.bdc3e406a78655958758.jpg",
     "static/media/fitnuts-screenshot.png": "/coding-portfolio/static/media/fitnuts-screenshot.49d214ba4b1ad8d66252.png",
@@ -11,14 +11,13 @@
     "static/media/southParkAvatar.png": "/coding-portfolio/static/media/southParkAvatar.573f9a0c82656f82b3b8.png",
     "static/media/book-search-engine-screenshot.png": "/coding-portfolio/static/media/book-search-engine-screenshot.fe8b16dab938abc1a91d.png",
     "static/media/textEditor.png": "/coding-portfolio/static/media/textEditor.8382d449317542b3c799.png",
-    "static/media/noteTaker.png": "/coding-portfolio/static/media/noteTaker.eb2cc9bc45b96f506266.png",
     "index.html": "/coding-portfolio/index.html",
     "main.cab90204.css.map": "/coding-portfolio/static/css/main.cab90204.css.map",
-    "main.3e5d0043.js.map": "/coding-portfolio/static/js/main.3e5d0043.js.map",
+    "main.6e6f6ef4.js.map": "/coding-portfolio/static/js/main.6e6f6ef4.js.map",
     "787.28cb0dcd.chunk.js.map": "/coding-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab90204.css",
-    "static/js/main.3e5d0043.js"
+    "static/js/main.6e6f6ef4.js"
   ]
 }
