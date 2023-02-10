@@ -1,7 +1,6 @@
 import React from 'react';
 import bigBadBrainBusterImg from '../../../src/images/big-bad-brain-blender-buster-screenshot.png';
 import newsAggregator from '../../../src/images/newsAggregator.png';
-import noteTaker from '../../../src/images/noteTaker.png';
 import socialMediaApiScreenshot from '../../../src/images/socialMediaApiScreenshot.png';
 import bookSearchEngine from '../../../src/images/book-search-engine-screenshot.png';
 import textEditor from '../../../src/images/textEditor.png';
